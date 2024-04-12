@@ -32,3 +32,12 @@
     display: grid;
     grid-template-columns: 25% 50% 25%;
   } */
+
+  .content::after{
+    content: " ";
+    position: relative;
+    background-color: orange;
+    width : 20rem;
+    height: 0.3rem;
+    
+  }
