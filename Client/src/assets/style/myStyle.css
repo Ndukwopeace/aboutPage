@@ -35,9 +35,22 @@
 
   .content::after{
     content: " ";
-    position: relative;
+    position: absolute;
     background-color: orange;
-    width : 20rem;
-    height: 0.3rem;
-    
+    border: 2px solid orange ;
+    width: 23.8rem;
+    top: 50%;
+    left: 100%;
+    border-radius: 1rem ;
+  }
+
+  .content::before{
+    content: " ";
+    position: absolute;
+    background-color: orange;
+    border: 2px solid orange ;
+    border-radius: 1rem ;
+    width: 23.8rem;
+    top: 50%;
+    right: 100%;
   }
