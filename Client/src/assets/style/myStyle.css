@@ -33,24 +33,28 @@
     grid-template-columns: 25% 50% 25%;
   } */
 
-  .content::after{
-    content: " ";
-    position: absolute;
-    background-color: orange;
-    border: 2px solid orange ;
-    width: 23.8rem;
-    top: 50%;
-    left: 100%;
-    border-radius: 1rem ;
-  }
-
-  .content::before{
-    content: " ";
-    position: absolute;
-    background-color: orange;
-    border: 2px solid orange ;
-    border-radius: 1rem ;
-    width: 23.8rem;
-    top: 50%;
-    right: 100%;
+  
+  
+  @media screen and (min-width: 1028px) { 
+    
+    .content::after{
+      content: " ";
+      position: absolute;
+      background-color: orange;
+      border: 2px solid orange ;
+      width: 23.8rem;
+      top: 50%;
+      left: 100%;
+      border-radius: 1rem ;
+    }
+    .content::before{
+      content: " ";
+      position: absolute;
+      background-color: orange;
+      border: 2px solid orange ;
+      border-radius: 1rem ;
+      width: 23.8rem;
+      top: 50%;
+      right: 100%;
+    }
   }
